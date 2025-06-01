@@ -1,0 +1,47 @@
+function suma(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 + num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
+
+function resta(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 - num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
+
+function multiplicacion(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 * num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
+
+function division(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 / num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
+
+function modulo(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 % num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
+
+function potencia(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    const resultado = num1 ^ num2;
+    document.getElementById("resul").innerText= "El resultado es: " + resultado;
+};
